@@ -1,0 +1,27 @@
+{
+  "name": "blogging-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adi-lagumdzija/blogging-platform.git"
+  },
+  "author": "Adi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adi-lagumdzija/blogging-platform/issues"
+  },
+  "homepage": "https://github.com/adi-lagumdzija/blogging-platform#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
